@@ -11,6 +11,9 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata = {
   title: "GamePortal - Play Free Online Games",
   description: "The best place to play free online games. Racing, Action, Puzzle and more!",
+  other: {
+    monetag: "b241a4630998c15f45e01d95dd9359ed",
+  },
 };
 
 export default function RootLayout({ children }) {
