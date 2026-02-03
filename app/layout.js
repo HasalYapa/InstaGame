@@ -20,16 +20,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className="dark">
       <body className={clsx(inter.className, "bg-slate-950 text-slate-50 min-h-screen flex flex-col")}>
-        {/* Monetag Smart Tag Script Placeholder */}
+        {/* Monetag Smart Tag Script */}
         <Script
-          id="monetag-smart-tag"
+          src="https://quge5.com/88/tag.min.js"
+          data-zone="208036"
           strategy="afterInteractive"
-        >
-          {`
-            // Monetag Smart Tag Code would go here
-            console.log("Monetag script loaded (Placeholder)");
-          `}
-        </Script>
+          data-cfasync="false"
+        />
 
         <Suspense fallback={<header className="h-16 border-b border-white/10 bg-slate-950/80" />}>
           <Header />
