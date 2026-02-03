@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #0f172a;
+  --color-foreground: #f8fafc;
+  --color-primary: #8b5cf6; /* Violet 500 */
+  --color-primary-foreground: #ffffff;
+  --color-card: #1e293b; /* Slate 800 */
+  --color-card-foreground: #f8fafc;
+  --color-accent: #38bdf8; /* Sky 400 */
+}
+
+/* 
+  If using legacy tailwind (v3), the above @theme syntax might not work directly without postcss plugin or v4 beta. 
+  But create-next-app latest often uses v3.4. 
+  To be safe for v3 standard: 
+*/
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+  }
+
+  .dark {
+    --background: 222.2 47.4% 11.2%;
+    --foreground: 210 40% 98%;
+  }
+} 
+
+/* For this project, we force dark mode vibes */
+body {
+  @apply bg-slate-950 text-slate-50 antialiased;
+}
