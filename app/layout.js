@@ -4,6 +4,7 @@ import AdPlaceholder from "./components/AdPlaceholder";
 import Script from "next/script";
 import { Inter } from 'next/font/google';
 import clsx from 'clsx';
+import { Suspense } from "react";
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -27,7 +28,9 @@ export default function RootLayout({ children }) {
           `}
         </Script>
 
-        <Header />
+        <Suspense fallback={<header className="h-16 border-b border-white/10 bg-slate-950/80" />}>
+          <Header />
+        </Suspense>
 
         {/* Top Ad Slot Layout Level */}
         <div className="container mx-auto px-4 mt-6">
