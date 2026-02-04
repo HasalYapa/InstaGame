@@ -30,6 +30,14 @@ export const games = [
     thumbnail: "/game4.jpg",
     iframeUrl: "https://html5.gamedistribution.com/5439e7734cf14dd082fe993be28b99db/?gd_sdk_referrer_url=https://www.example.com/games/luxury-highway-cars",
     description: "Skid the wheels of 6 stunning luxury cars with insane speed limits and drive them through 3 landscape highways."
+  },
+  {
+    id: "g15",
+    title: "Count Masters: Stickman Games",
+    category: "Action",
+    thumbnail: "/game5.jpg",
+    iframeUrl: "https://www.gameflare.com/embed/count-masters/",
+    description: "Count Masters: Stickman Games is a fast-paced running game where you gather a growing army of stickmen to clash against rival crowds."
   }
 ];
 
