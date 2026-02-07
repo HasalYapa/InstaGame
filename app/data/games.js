@@ -24,20 +24,44 @@ export const games = [
     description: "Do you have the strategic skill to build a flawless factory? Manage your budget wisely!"
   },
   {
-    id: "g14",
-    title: "Luxury Highway Cars",
-    category: "Racing",
-    thumbnail: "/game4.jpg",
-    iframeUrl: "https://html5.gamedistribution.com/5439e7734cf14dd082fe993be28b99db/?gd_sdk_referrer_url=https://www.example.com/games/luxury-highway-cars",
-    description: "Skid the wheels of 6 stunning luxury cars with insane speed limits and drive them through 3 landscape highways."
-  },
-  {
     id: "g15",
     title: "Count Masters: Stickman Games",
     category: "Action",
     thumbnail: "/game5.jpg",
     iframeUrl: "https://www.gameflare.com/embed/count-masters/",
     description: "Count Masters: Stickman Games is a fast-paced running game where you gather a growing army of stickmen to clash against rival crowds."
+  },
+  {
+    id: "g16",
+    title: "Smash Karts",
+    category: "Action",
+    thumbnail: "/game6.jpg",
+    iframeUrl: "https://www.gameflare.com/embed/smash-karts/",
+    description: "Smash Karts is a 3D multiplayer IO kart battle game. Drive your go-kart, pick up weapons, and blow up other karts to win!"
+  },
+  {
+    id: "g17",
+    title: "EvoWars.io",
+    category: "Action",
+    thumbnail: "/game7.jpg",
+    iframeUrl: "https://www.gameflare.com/embed/evowarsio/",
+    description: "EvoWars.io is an IO battle game set in a top-down online battle arena. Collect orbs and battle other players to evolve your warrior."
+  },
+  {
+    id: "g18",
+    title: "Arkadium's Bubble Shooter",
+    category: "Puzzle",
+    thumbnail: "/game8.jpg",
+    iframeUrl: "https://www.crazygames.com/embed/arkadium-s-bubble-shooter",
+    description: "Arkadium's Bubble Shooter is an exciting casual bubble shooter game. Match three or more bubbles of the same color to clear them and increase your score. Let's get popping!"
+  },
+  {
+    id: "g19",
+    title: "BloxdHop.io",
+    category: "Action",
+    thumbnail: "/game9.jpg",
+    iframeUrl: "https://www.crazygames.com/embed/bloxdhop-io",
+    description: "Bloxd.io is an IO adventure game with Minecraft-style visuals and multiple game modes, including parkour challenges, creative sandbox building, and combat-based gameplay."
   }
 ];
 
